@@ -65,6 +65,10 @@ include vendor/du/config/packages.mk
 # Branding
 include vendor/du/config/branding.mk
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
