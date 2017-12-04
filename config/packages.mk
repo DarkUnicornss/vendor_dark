@@ -1,6 +1,7 @@
 # Packages
 PRODUCT_PACKAGES += \
-    Turbo
+    Turbo \
+    GCam
 
 # Extra tools
 PRODUCT_PACKAGES += \
